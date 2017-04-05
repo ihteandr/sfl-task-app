@@ -1,0 +1,28 @@
+.dates-panel{
+  display: flex;
+  justify-content: space-around;
+  .date{
+    display: block;
+    border: 1px solid lightgrey;
+    padding: 7px;
+    width: 80px;
+
+    &.date_selected{
+      background: burlywood;
+    }
+    .date_day{
+      display: block;
+      text-align: center;
+      font-size: 25px;
+      font-weight: bold;
+    }
+    .date_week{
+      display: block;
+      text-align: center;
+    }
+    .date_month{
+      display: block;
+      text-align: center;
+    }
+  }
+}
